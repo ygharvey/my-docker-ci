@@ -12,4 +12,4 @@ jobs:
         user: actions/checkout@v4
 
       - name: Build Docker image
-        run: docker build -t my-web-test . 
+        run: docker build -t my-web-test .
